@@ -6,7 +6,8 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "node server.js",
+    "local": "next start"
   },
   "dependencies": {
     "next": "^13.2.1",
