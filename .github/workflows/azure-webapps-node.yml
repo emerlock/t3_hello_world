@@ -20,7 +20,7 @@ jobs:
     - name: create env file
       run: |
          touch .env
-         echo "${{ ENV_FILE }}" >> .env
+         echo "${{ secrets.ENV_FILE }}" >> .env
     - name: npm install, build, and test
       run: |
         # Build and test the project, then
