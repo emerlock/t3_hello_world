@@ -22,7 +22,7 @@ jobs:
     - name: create env file
       run: |
          touch .env
-         echo "${{ ENV_FILE }}" >> .env
+         echo "${{ env.ENV_FILE }}" >> .env
          
     - name: npm install, build, and test
       run: |
