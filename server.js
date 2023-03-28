@@ -1,7 +1,7 @@
 const { createServer } = require("http");
 const next = require("next");
 
-const port = 3000;
+const port = 8080;
 const app = next({ dev: false });
 const handle = app.getRequestHandler();
 
