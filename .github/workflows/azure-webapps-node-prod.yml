@@ -1,6 +1,8 @@
 name: JavaScript CI
 
-on: [push]
+on: 
+  push:
+    branches: [ "main" ]
 
 env:
   AZURE_WEBAPP_NAME: t3-hello-world   # set this to your application's name
